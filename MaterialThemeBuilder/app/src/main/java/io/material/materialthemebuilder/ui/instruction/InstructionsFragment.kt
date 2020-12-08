@@ -43,7 +43,7 @@ class InstructionsFragment : Fragment() {
     val darkThemeSwitch: SwitchMaterial = view.findViewById(R.id.dark_theme_switch)
     val preferenceRepository = (requireActivity().application as App).preferenceRepository
 
-    preferenceRepository.isDarkThemeLive.observe(this) { isDarkTheme ->
+    preferenceRepository.isDarkThemeLive.observe(viewLifecycleOwner) { isDarkTheme ->
       isDarkTheme?.let { darkThemeSwitch.isChecked = it }
     }
 

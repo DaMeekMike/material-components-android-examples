@@ -21,5 +21,6 @@
         <item>@font/roboto_black_italic</item>
         <item>@font/roboto_mono</item>
         <item>@font/roboto_mono_light</item>
+        <item>@font/roboto_mono_medium</item>
     </array>
 </resources>
