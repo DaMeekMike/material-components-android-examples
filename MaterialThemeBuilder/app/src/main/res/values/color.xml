@@ -62,4 +62,10 @@
     <!--color on surface (light)-->
     <color name="black_900">#000000</color>
 
+    <!--Custom Colours-->
+    <color name="navy_blue_500">#64869B</color>
+    <color name="navy_blue_700">#37596D</color>
+    <color name="navy_blue_900">#073042</color>
+    <color name="green_300">#3DDC84</color>
+
 </resources>
